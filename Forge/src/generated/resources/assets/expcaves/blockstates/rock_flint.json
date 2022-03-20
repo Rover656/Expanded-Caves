@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/rock_flint"
+      },
+      {
+        "model": "expcaves:block/rock_flint",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/rock_flint",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/rock_flint",
+        "y": 270
+      }
+    ]
+  }
+}

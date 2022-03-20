@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:item/stalagmite_tall",
+  "textures": {
+    "0": "minecraft:block/stone",
+    "particle": "minecraft:block/stone"
+  }
+}

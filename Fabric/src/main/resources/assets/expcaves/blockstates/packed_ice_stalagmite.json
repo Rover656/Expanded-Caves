@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/packed_ice_stalagmite"
+      },
+      {
+        "model": "expcaves:block/packed_ice_stalagmite",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/packed_ice_stalagmite",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/packed_ice_stalagmite",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/stone_stalagmite"
+      },
+      {
+        "model": "expcaves:block/stone_stalagmite",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/stone_stalagmite",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/stone_stalagmite",
+        "y": 270
+      }
+    ]
+  }
+}

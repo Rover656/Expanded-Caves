@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "expcaves:sediment_stone_stairs",
+    "expcaves:lavastone_stairs",
+    "expcaves:polished_lavastone_stairs",
+    "expcaves:dirtstone_stairs",
+    "expcaves:dirtstone_cobble_stairs",
+    "expcaves:bricks_ice_stairs",
+    "expcaves:bricks_snow_stairs"
+  ]
+}

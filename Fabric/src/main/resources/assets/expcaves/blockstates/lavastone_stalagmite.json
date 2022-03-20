@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/lavastone_stalagmite"
+      },
+      {
+        "model": "expcaves:block/lavastone_stalagmite",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/lavastone_stalagmite",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/lavastone_stalagmite",
+        "y": 270
+      }
+    ]
+  }
+}

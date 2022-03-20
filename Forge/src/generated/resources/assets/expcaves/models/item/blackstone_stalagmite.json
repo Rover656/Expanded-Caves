@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:item/stalagmite",
+  "textures": {
+    "0": "minecraft:block/blackstone",
+    "particle": "minecraft:block/blackstone"
+  }
+}

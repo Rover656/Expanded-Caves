@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/andesite_stalactite"
+      },
+      {
+        "model": "expcaves:block/andesite_stalactite",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/andesite_stalactite",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/andesite_stalactite",
+        "y": 270
+      }
+    ]
+  }
+}

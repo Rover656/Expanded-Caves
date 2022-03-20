@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "expcaves:block/dirtstone_cobble_pressure_plate"
+    },
+    "powered=true": {
+      "model": "expcaves:block/dirtstone_cobble_pressure_plate_down"
+    }
+  }
+}

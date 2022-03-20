@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "side": "expcaves:block/sediment_stone",
+    "bottom": "expcaves:block/sediment_stone",
+    "top": "expcaves:block/sediment_stone"
+  }
+}

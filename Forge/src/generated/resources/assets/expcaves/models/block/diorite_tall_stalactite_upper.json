@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/stalactite_tall_upper",
+  "textures": {
+    "0": "minecraft:block/diorite",
+    "particle": "minecraft:block/diorite"
+  }
+}

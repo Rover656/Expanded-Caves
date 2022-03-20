@@ -1,29 +1,32 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "expcaves",
     "version": "${version}",
   
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "name": "Expanded Caves",
+    "description": "Expanded Caves:\nMaking the underground full of things to discover.\n\nOriginally developed by Polyvalord. Rewritten and Maintained by Rover656.",
     "authors": [
       "Me!"
     ],
     "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
+      "homepage": "https://www.curseforge.com/minecraft/mc-mods/expanded-caves-fabric",
+      "sources": "https://github.com/Rover656/Expanded-Caves"
     },
   
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
+    "license": "All Rights Reserved",
+    "icon": "assets/modid/expcaves.png",
   
     "environment": "*",
     "entrypoints": {
       "main": [
-        "com.example.examplemod.ExampleMod"
+        "dev.nerdthings.expandedcaves.fabric.common.ExpandedCaves"
+      ],
+      "client": [
+        "dev.nerdthings.expandedcaves.fabric.client.ExpandedCavesClient"
       ]
     },
     "mixins": [
-      "modid.mixins.json"
+      "expcaves.mixins.json"
     ],
   
     "depends": {
@@ -31,9 +34,6 @@
       "fabric": "*",
       "minecraft": "1.18.x",
       "java": ">=17"
-    },
-    "suggests": {
-      "another-mod": "*"
     }
   }
   

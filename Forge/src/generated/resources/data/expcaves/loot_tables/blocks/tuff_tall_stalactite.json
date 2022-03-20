@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "expcaves:tuff_tall_stalactite",
+                  "properties": {
+                    "half": "upper"
+                  }
+                }
+              ],
+              "name": "expcaves:tuff_tall_stalactite"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "expcaves:tuff_tall_stalactite",
+                  "properties": {
+                    "half": "upper"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 5.0,
+                  "add": false
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "expcaves:tuff_pebble"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

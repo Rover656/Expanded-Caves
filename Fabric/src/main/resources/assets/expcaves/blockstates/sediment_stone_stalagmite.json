@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/sediment_stone_stalagmite"
+      },
+      {
+        "model": "expcaves:block/sediment_stone_stalagmite",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/sediment_stone_stalagmite",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/sediment_stone_stalagmite",
+        "y": 270
+      }
+    ]
+  }
+}

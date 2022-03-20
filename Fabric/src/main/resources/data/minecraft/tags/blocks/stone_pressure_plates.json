@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "expcaves:sediment_stone_pressure_plate",
+    "expcaves:lavastone_pressure_plate",
+    "expcaves:polished_lavastone_pressure_plate",
+    "expcaves:dirtstone_pressure_plate",
+    "expcaves:dirtstone_cobble_pressure_plate",
+    "expcaves:marlstone_pressure_plate",
+    "expcaves:bricks_ice_pressure_plate",
+    "expcaves:bricks_snow_pressure_plate"
+  ]
+}

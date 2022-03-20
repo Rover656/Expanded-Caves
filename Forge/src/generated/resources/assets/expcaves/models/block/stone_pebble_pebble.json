@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/pebble",
+  "textures": {
+    "0": "minecraft:block/stone",
+    "particle": "minecraft:block/stone"
+  }
+}

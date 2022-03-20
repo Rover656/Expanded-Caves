@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "expcaves:sediment_stone_wall",
+    "expcaves:lavastone_wall",
+    "expcaves:polished_lavastone_wall",
+    "expcaves:dirtstone_wall",
+    "expcaves:dirtstone_cobble_wall",
+    "expcaves:marlstone_wall",
+    "expcaves:bricks_ice_wall",
+    "expcaves:bricks_snow_wall"
+  ]
+}

@@ -6,6 +6,12 @@ plugins {
 
 archivesBaseName = "${mod_name}-fabric-${minecraft_version}"
 
+repositories {
+    maven {
+        url = "https://maven.modmuss50.me/"
+    }
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.officialMojangMappings()
@@ -13,6 +19,9 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
     implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.1'
     implementation project(":Common")
+
+    // Config
+    implementation "me.zeroeightsix:fiber:${project.fiber_version}"
 }
 
 loom {

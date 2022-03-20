@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "expcaves:block/sediment_stone_slab_top"
+    },
+    "type=bottom": {
+      "model": "expcaves:block/sediment_stone_slab"
+    },
+    "type=double": {
+      "model": "expcaves:block/sediment_stone"
+    }
+  }
+}

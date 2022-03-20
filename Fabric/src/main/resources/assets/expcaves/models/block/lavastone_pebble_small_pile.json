@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/small_rockpile",
+  "textures": {
+    "0": "expcaves:block/lavastone",
+    "particle": "expcaves:block/lavastone"
+  }
+}

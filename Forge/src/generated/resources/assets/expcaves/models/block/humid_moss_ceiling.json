@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "expcaves:block/humid_moss_ceiling"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/stalactite",
+  "textures": {
+    "0": "minecraft:block/packed_ice",
+    "particle": "minecraft:block/packed_ice"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "expcaves:block/deepslate_stalagmite"
+      },
+      {
+        "model": "expcaves:block/deepslate_stalagmite",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/deepslate_stalagmite",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/deepslate_stalagmite",
+        "y": 270
+      }
+    ]
+  }
+}
