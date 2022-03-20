@@ -1,5 +1,6 @@
 package dev.nerdthings.expandedcaves.platform.services;
 
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
 public interface IPlatformHelper {
@@ -27,4 +28,6 @@ public interface IPlatformHelper {
     boolean isDevelopmentEnvironment();
 
     Item.Properties defaultItemBuilder();
+
+    TagKey<Item> ironIngotTag();
 }

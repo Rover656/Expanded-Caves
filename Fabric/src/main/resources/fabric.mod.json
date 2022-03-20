@@ -19,10 +19,10 @@
     "environment": "*",
     "entrypoints": {
       "main": [
-        "dev.nerdthings.expandedcaves.fabric.common.ExpandedCaves"
+        "dev.nerdthings.expandedcaves.fabric.common.FabricExpandedCaves"
       ],
       "client": [
-        "dev.nerdthings.expandedcaves.fabric.client.ExpandedCavesClient"
+        "dev.nerdthings.expandedcaves.fabric.client.FabricExpandedCavesClient"
       ]
     },
     "mixins": [

@@ -1,9 +1,9 @@
 package dev.nerdthings.expandedcaves.forge.common;
 
-import dev.nerdthings.expandedcaves.CommonClass;
 import dev.nerdthings.expandedcaves.Constants;
 import dev.nerdthings.expandedcaves.common.blocks.ModBlocks;
 import dev.nerdthings.expandedcaves.common.gen.ModFeatures;
+import dev.nerdthings.expandedcaves.common.items.ModItems;
 import dev.nerdthings.expandedcaves.forge.common.config.ForgeConfig;
 import dev.nerdthings.expandedcaves.forge.common.gen.WorldGen;
 import net.minecraft.resources.ResourceLocation;
@@ -24,25 +24,14 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 @Mod(Constants.MOD_ID)
-public class ExpandedCaves {
-
-    public static CreativeModeTab TAB = new CreativeModeTab(Constants.MOD_ID + "." + Constants.MOD_ID) {
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.LUMISHROOM);
-        }
-    };
-    
-    public ExpandedCaves() {
+public class ForgeExpandedCaves {
+    public ForgeExpandedCaves() {
         // Setup config
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ForgeConfig.COMMON_SPEC, Constants.MOD_ID + "_common.toml");
-    
-        // Use Forge to bootstrap the Common mod.
-        Constants.LOG.info("Hello Forge world!");
-        CommonClass.init();
-    
+
         bind(ForgeRegistries.BLOCKS, ModBlocks::registerBlocks);
         bind(ForgeRegistries.ITEMS, ModBlocks::registerBlockItems);
+        bind(ForgeRegistries.ITEMS, ModItems::registerItems);
         bind(ForgeRegistries.FEATURES, ModFeatures::registerFeatures);
 
         // Add world gen features
