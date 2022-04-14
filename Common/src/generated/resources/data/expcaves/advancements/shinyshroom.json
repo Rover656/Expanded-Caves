@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:goldishroom",
+  "display": {
+    "icon": {
+      "item": "expcaves:shinyshroom"
+    },
+    "title": {
+      "translate": "advancements.caves.shinyshroom.title"
+    },
+    "description": {
+      "translate": "advancements.caves.shinyshroom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:shinyshroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:item/stalactite",
+  "textures": {
+    "texture": "minecraft:block/granite",
+    "particle": "minecraft:block/granite"
+  }
+}

@@ -139,6 +139,10 @@ public class ModBlocks {
     public static final PressurePlateBlock MARLSTONE_PRESSURE_PLATE = pressurePlate("marlstone", 1.2f, 3.0f);
     public static final StoneButtonBlock MARLSTONE_BUTTON = button("marlstone", 1.2f, 3.0f);
 
+    // TODO: Custom block entity? is that necessary?
+    public static final SandBlock MARLSTONE_POWDER = register("marlstone_powder",
+        new SandBlock(6901053, BlockBehaviour.Properties.of(Material.SAND).strength(0.5f).sound(SoundType.SAND)));
+
     // TODO: Change bricks IDs
 
     public static final Block BRICKS_ICE = basic("bricks_ice", 1.2f, 3.0f);
@@ -206,15 +210,15 @@ public class ModBlocks {
 
     // TODO: After the port is finished maybe we ditch the bundle idea?
 
-    public static final SpelothemBundle STONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "stone", Material.STONE, 0.45f, 0.75f);
-    public static final SpelothemBundle ANDESITE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "andesite", Material.STONE, 0.45f, 0.75f);
-    public static final SpelothemBundle DIORITE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "diorite", Material.STONE, 0.45f, 0.75f);
-    public static final SpelothemBundle GRANITE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "granite", Material.STONE, 0.45f, 0.75f);
-    public static final SpelothemBundle TUFF_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "tuff", Material.STONE, 0.45f, 0.75f);
-    public static final SpelothemBundle DEEPSLATE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "deepslate", Material.STONE, 0.45f, 0.75f);
-    public static final SpelothemBundle SEDIMENT_STONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "sediment_stone", Material.STONE, 0.3f, 0.6f);
-    public static final SpelothemBundle LAVASTONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "lavastone", Material.STONE, 0.6f, 1.0f);
-    public static final SpelothemBundle PACKED_ICE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "packed_ice", Material.STONE, 0.15f, 0.25f);
+    public static final SpelothemBundle STONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "stone", Blocks.STONE, Material.STONE, 0.45f, 0.75f);
+    public static final SpelothemBundle ANDESITE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "andesite", Blocks.ANDESITE, Material.STONE, 0.45f, 0.75f);
+    public static final SpelothemBundle DIORITE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "diorite", Blocks.DIORITE, Material.STONE, 0.45f, 0.75f);
+    public static final SpelothemBundle GRANITE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "granite", Blocks.GRANITE, Material.STONE, 0.45f, 0.75f);
+    public static final SpelothemBundle TUFF_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "tuff", Blocks.TUFF, Material.STONE, 0.45f, 0.75f);
+    public static final SpelothemBundle DEEPSLATE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "deepslate", Blocks.DEEPSLATE, Material.STONE, 0.45f, 0.75f);
+    public static final SpelothemBundle SEDIMENT_STONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "sediment_stone", ModBlocks.SEDIMENT_STONE, Material.STONE, 0.3f, 0.6f);
+    public static final SpelothemBundle LAVASTONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "lavastone", ModBlocks.LAVASTONE, Material.STONE, 0.6f, 1.0f);
+    public static final SpelothemBundle PACKED_ICE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "packed_ice", Blocks.PACKED_ICE, Material.STONE, 0.15f, 0.25f);
 
 //    public static final SpelothemBundle NETHERRACK_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "packed_ice", Material.STONE, 0.15f, 0.25f);
 //    public static final SpelothemBundle BLACKSTONE_SPELOTHEMS = new SpelothemBundle(ModBlocks::register, "packed_ice", Material.STONE, 0.15f, 0.25f);

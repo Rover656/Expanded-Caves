@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "expcaves:stone_pebble",
+    "expcaves:andesite_pebble",
+    "expcaves:diorite_pebble",
+    "expcaves:granite_pebble",
+    "expcaves:tuff_pebble",
+    "expcaves:deepslate_pebble",
+    "expcaves:sediment_stone",
+    "expcaves:lavastone_pebble"
+  ]
+}

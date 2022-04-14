@@ -1,0 +1,38 @@
+{
+  "parent": "expcaves:kill_a_zombie",
+  "display": {
+    "icon": {
+      "item": "expcaves:gourmet_spoon",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.caves.zombie_gourmet.title"
+    },
+    "description": {
+      "translate": "advancements.caves.zombie_gourmet.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:gourmet_spoon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

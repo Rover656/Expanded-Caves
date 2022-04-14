@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "expcaves:sediment_stone",
+    "expcaves:lavastone",
+    "expcaves:dirtstone",
+    "expcaves:dirtstone_cobble"
+  ]
+}

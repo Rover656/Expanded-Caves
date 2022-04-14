@@ -1,7 +1,0 @@
-{
-  "parent": "expcaves:item/stalactite_tall",
-  "textures": {
-    "0": "minecraft:block/netherrack",
-    "particle": "minecraft:block/netherrack"
-  }
-}

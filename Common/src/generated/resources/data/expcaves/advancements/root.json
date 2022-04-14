@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "expcaves:stone_pebble"
+    },
+    "title": {
+      "translate": "advancements.caves.root.title"
+    },
+    "description": {
+      "translate": "advancements.caves.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "expcaves:textures/block/lavastone.png"
+  },
+  "criteria": {
+    "pebble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "expcaves:stone_pebbles"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pebble"
+    ]
+  ]
+}

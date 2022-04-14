@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:sweetshroom",
+  "display": {
+    "icon": {
+      "item": "expcaves:rockshroom"
+    },
+    "title": {
+      "translate": "advancements.caves.rockshroom.title"
+    },
+    "description": {
+      "translate": "advancements.caves.rockshroom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:rockshroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

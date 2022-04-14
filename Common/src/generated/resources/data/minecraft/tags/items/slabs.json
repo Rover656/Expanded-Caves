@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "expcaves:sediment_stone_slab",
+    "expcaves:lavastone_slab",
+    "expcaves:polished_lavastone_slab",
+    "expcaves:dirtstone_slab",
+    "expcaves:dirtstone_cobble_slab",
+    "expcaves:marlstone_slab",
+    "expcaves:bricks_ice_slab",
+    "expcaves:bricks_snow_slab"
+  ]
+}

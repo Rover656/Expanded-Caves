@@ -3,8 +3,10 @@ package dev.nerdthings.expandedcaves.common.items;
 import dev.nerdthings.expandedcaves.Constants;
 import dev.nerdthings.expandedcaves.common.items.util.CPickaxeItem;
 import dev.nerdthings.expandedcaves.platform.Services;
+import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +50,10 @@ public class ModItems {
     private static SwordItem sword(String name, Tier tier, int attackDamage, float attackSpeed) {
         return register(name, new SwordItem(tier, attackDamage, attackDamage, Services.PLATFORM.defaultItemBuilder()));
     }
+
+//    private static BlockItem block(Block block) {
+//        return register(Registry.BLOCK.getKey(block).getPath(), new BlockItem(block, Services.PLATFORM.defaultItemBuilder()));
+//    }
 
     private static Item register(String name) {
         return register(name, new Item(Services.PLATFORM.defaultItemBuilder()));

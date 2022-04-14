@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:sweetshroom",
+  "display": {
+    "icon": {
+      "item": "expcaves:goldishroom"
+    },
+    "title": {
+      "translate": "advancements.caves.goldishroom.title"
+    },
+    "description": {
+      "translate": "advancements.caves.goldishroom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:goldishroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

@@ -23,6 +23,9 @@
       ],
       "client": [
         "dev.nerdthings.expandedcaves.fabric.client.FabricExpandedCavesClient"
+      ],
+      "fabric-datagen": [
+        "dev.nerdthings.expandedcaves.fabric.data.FabricDatagen"
       ]
     },
     "mixins": [

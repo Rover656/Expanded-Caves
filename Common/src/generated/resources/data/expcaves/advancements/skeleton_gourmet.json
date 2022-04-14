@@ -1,0 +1,38 @@
+{
+  "parent": "expcaves:kill_a_skeleton",
+  "display": {
+    "icon": {
+      "item": "expcaves:gourmet_fork",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.caves.skeleton_gourmet.title"
+    },
+    "description": {
+      "translate": "advancements.caves.skeleton_gourmet.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:gourmet_fork"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

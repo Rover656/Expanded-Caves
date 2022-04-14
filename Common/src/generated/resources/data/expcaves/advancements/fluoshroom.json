@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:lumishroom",
+  "display": {
+    "icon": {
+      "item": "expcaves:fluoshroom"
+    },
+    "title": {
+      "translate": "advancements.caves.fluoshroom.title"
+    },
+    "description": {
+      "translate": "advancements.caves.fluoshroom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:fluoshroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

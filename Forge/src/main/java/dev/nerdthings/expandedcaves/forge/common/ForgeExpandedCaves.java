@@ -4,11 +4,12 @@ import dev.nerdthings.expandedcaves.Constants;
 import dev.nerdthings.expandedcaves.common.blocks.ModBlocks;
 import dev.nerdthings.expandedcaves.common.gen.ModFeatures;
 import dev.nerdthings.expandedcaves.common.items.ModItems;
+import dev.nerdthings.expandedcaves.data.ItemTagProvider;
+import dev.nerdthings.expandedcaves.data.ModBlockTagProvider;
 import dev.nerdthings.expandedcaves.forge.common.config.ForgeConfig;
 import dev.nerdthings.expandedcaves.forge.common.gen.WorldGen;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -16,6 +17,7 @@ import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryEntry;
@@ -36,6 +38,17 @@ public class ForgeExpandedCaves {
 
         // Add world gen features
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, WorldGen::onBiomeLoad);
+
+        // Datagen
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(EventPriority.LOWEST, this::gatherData);
+    }
+
+    public void gatherData(GatherDataEvent event) {
+        DataGenerator generator = event.getGenerator();
+
+        if (event.includeServer()) {
+
+        }
     }
 
     // Thanks botania!

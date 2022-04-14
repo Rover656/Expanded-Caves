@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:sweetshroom",
+  "display": {
+    "icon": {
+      "item": "expcaves:lumishroom"
+    },
+    "title": {
+      "translate": "advancements.caves.lumishroom.title"
+    },
+    "description": {
+      "translate": "advancements.caves.lumishroom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:lumishroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

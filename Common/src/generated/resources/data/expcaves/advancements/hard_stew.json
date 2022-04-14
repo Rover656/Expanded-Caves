@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:rockshroom",
+  "display": {
+    "icon": {
+      "item": "expcaves:hard_stew"
+    },
+    "title": {
+      "translate": "advancements.caves.hard_stew.title"
+    },
+    "description": {
+      "translate": "advancements.caves.hard_stew.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:hard_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

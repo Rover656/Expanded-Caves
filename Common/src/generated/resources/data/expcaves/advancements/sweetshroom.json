@@ -1,0 +1,37 @@
+{
+  "parent": "expcaves:root",
+  "display": {
+    "icon": {
+      "item": "expcaves:sweetshroom"
+    },
+    "title": {
+      "translate": "advancements.caves.sweetshroom.title"
+    },
+    "description": {
+      "translate": "advancements.caves.sweetshroom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:sweetshroom"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pickup"
+    ]
+  ]
+}

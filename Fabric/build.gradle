@@ -38,6 +38,19 @@ loom {
             ideConfigGenerated(true)
             runDir("run")
         }
+        commonDatagen {
+            client()
+            vmArg "-Dexpcaves.common_datagen=1"
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.modid=expcaves"
+            vmArg "-Dfabric-api.datagen.output-dir=${file("../Common/src/generated/resources")}"
+        }
+        datagen {
+            client()
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.modid=expcaves"
+            vmArg "-Dfabric-api.datagen.output-dir=${file("src/generated/resources")}"
+        }
     }
 }
 
