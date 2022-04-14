@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    },
+    {
+      "item": "expcaves:andesite_pebble"
+    }
+  ],
+  "result": {
+    "item": "minecraft:andesite"
+  }
+}

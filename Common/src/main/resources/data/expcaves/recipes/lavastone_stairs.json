@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expcaves:lavastone"
+    }
+  },
+  "result": {
+    "item": "expcaves:lavastone_stairs",
+    "count": 4
+  }
+}

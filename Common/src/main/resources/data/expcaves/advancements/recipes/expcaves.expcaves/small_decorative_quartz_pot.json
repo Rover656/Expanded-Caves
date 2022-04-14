@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:small_decorative_quartz_pot"
+    ]
+  },
+  "criteria": {
+    "has_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:small_decorative_quartz_pot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_quartz",
+      "has_the_recipe"
+    ]
+  ]
+}

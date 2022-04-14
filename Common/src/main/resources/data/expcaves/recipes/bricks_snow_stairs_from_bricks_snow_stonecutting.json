@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "expcaves:bricks_snow"
+  },
+  "result": "expcaves:bricks_snow_stairs",
+  "count": 1
+}

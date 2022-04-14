@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:clay_ball"
+    ]
+  },
+  "criteria": {
+    "has_clay_lump": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:clay_lump"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:clay_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_clay_lump",
+      "has_the_recipe"
+    ]
+  ]
+}

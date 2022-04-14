@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:marlstone"
+    }
+  ],
+  "result": {
+    "item": "expcaves:marlstone_button"
+  }
+}

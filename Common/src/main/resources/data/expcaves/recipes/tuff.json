@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    },
+    {
+      "item": "expcaves:tuff_pebble"
+    }
+  ],
+  "result": {
+    "item": "minecraft:tuff"
+  }
+}

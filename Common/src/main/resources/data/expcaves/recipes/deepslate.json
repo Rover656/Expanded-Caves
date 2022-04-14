@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    },
+    {
+      "item": "expcaves:deepslate_pebble"
+    }
+  ],
+  "result": {
+    "item": "minecraft:deepslate"
+  }
+}

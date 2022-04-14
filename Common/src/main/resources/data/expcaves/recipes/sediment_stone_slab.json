@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expcaves:sediment_stone"
+    }
+  },
+  "result": {
+    "item": "expcaves:sediment_stone_slab",
+    "count": 6
+  }
+}

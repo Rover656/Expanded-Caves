@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:bricks_snow_slab_from_bricks_snow_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_bricks_snow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:bricks_snow"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:bricks_snow_slab_from_bricks_snow_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bricks_snow",
+      "has_the_recipe"
+    ]
+  ]
+}

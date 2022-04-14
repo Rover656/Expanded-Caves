@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:clay_lump"
+    },
+    {
+      "item": "expcaves:clay_lump"
+    }
+  ],
+  "result": {
+    "item": "minecraft:clay_ball"
+  }
+}

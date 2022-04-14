@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expcaves:bricks_ice"
+    }
+  },
+  "result": {
+    "item": "expcaves:bricks_ice_stairs",
+    "count": 4
+  }
+}

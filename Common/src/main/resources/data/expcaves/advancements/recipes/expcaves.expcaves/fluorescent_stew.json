@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:fluorescent_stew"
+    ]
+  },
+  "criteria": {
+    "has_lumishroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:lumishroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_fluoshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:fluoshroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:fluorescent_stew"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lumishroom",
+      "has_fluoshroom",
+      "has_the_recipe"
+    ]
+  ]
+}

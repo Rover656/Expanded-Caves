@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:cooked_sweetshroom_from_sweetshroom_smoking"
+    ]
+  },
+  "criteria": {
+    "has_sweetshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:sweetshroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:cooked_sweetshroom_from_sweetshroom_smoking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sweetshroom",
+      "has_the_recipe"
+    ]
+  ]
+}

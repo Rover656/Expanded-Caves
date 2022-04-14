@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "expcaves:lumishroom"
+    },
+    {
+      "item": "expcaves:fluoshroom"
+    }
+  ],
+  "result": {
+    "item": "expcaves:fluorescent_stew"
+  }
+}

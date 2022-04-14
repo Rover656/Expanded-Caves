@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:brick_half_from_clay_lump_smelting"
+    ]
+  },
+  "criteria": {
+    "has_clay_lump": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:clay_lump"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:brick_half_from_clay_lump_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_clay_lump",
+      "has_the_recipe"
+    ]
+  ]
+}

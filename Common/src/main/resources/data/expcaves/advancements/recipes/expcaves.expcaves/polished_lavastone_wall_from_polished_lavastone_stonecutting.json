@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:polished_lavastone_wall_from_polished_lavastone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_lavastone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:polished_lavastone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:polished_lavastone_wall_from_polished_lavastone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_lavastone",
+      "has_the_recipe"
+    ]
+  ]
+}

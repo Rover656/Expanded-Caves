@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "expcaves:dirtstone"
+  },
+  "result": "expcaves:dirtstone_slab",
+  "count": 2
+}

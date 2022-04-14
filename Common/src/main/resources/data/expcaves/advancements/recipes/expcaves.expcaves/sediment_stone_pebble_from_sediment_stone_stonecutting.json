@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:sediment_stone_pebble_from_sediment_stone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_sediment_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:sediment_stone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:sediment_stone_pebble_from_sediment_stone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sediment_stone",
+      "has_the_recipe"
+    ]
+  ]
+}

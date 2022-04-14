@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:diorite"
+    ]
+  },
+  "criteria": {
+    "has_diorite_pebble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:diorite_pebble"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:diorite"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diorite_pebble",
+      "has_the_recipe"
+    ]
+  ]
+}

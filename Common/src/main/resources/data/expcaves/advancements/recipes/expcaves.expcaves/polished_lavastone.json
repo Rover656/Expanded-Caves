@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:polished_lavastone"
+    ]
+  },
+  "criteria": {
+    "has_lavastone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:lavastone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:polished_lavastone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lavastone",
+      "has_the_recipe"
+    ]
+  ]
+}

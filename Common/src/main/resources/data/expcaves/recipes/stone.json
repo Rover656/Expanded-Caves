@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    },
+    {
+      "item": "expcaves:stone_pebble"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    },
+    {
+      "item": "expcaves:lavastone_pebble"
+    }
+  ],
+  "result": {
+    "item": "expcaves:lavastone"
+  }
+}

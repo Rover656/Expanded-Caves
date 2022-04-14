@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "expcaves:marlstone"
+  },
+  "result": "expcaves:marlstone_wall",
+  "count": 1
+}

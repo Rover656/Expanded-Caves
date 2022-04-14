@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:dirtstone_stairs"
+    ]
+  },
+  "criteria": {
+    "has_dirtstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:dirtstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:dirtstone_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dirtstone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:sticky_stew"
+    ]
+  },
+  "criteria": {
+    "has_goldishroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:goldishroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_shinyshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:shinyshroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:sticky_stew"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_goldishroom",
+      "has_shinyshroom",
+      "has_the_recipe"
+    ]
+  ]
+}

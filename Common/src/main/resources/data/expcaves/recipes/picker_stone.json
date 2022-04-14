@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " S"
+  ],
+  "key": {
+    "X": {
+      "tag": "expcaves:stone_pebbles"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "expcaves:picker_stone"
+  }
+}

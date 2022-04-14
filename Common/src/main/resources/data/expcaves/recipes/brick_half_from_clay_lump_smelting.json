@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "expcaves:clay_lump"
+  },
+  "result": "expcaves:brick_half",
+  "experience": 0.2,
+  "cookingtime": 100
+}

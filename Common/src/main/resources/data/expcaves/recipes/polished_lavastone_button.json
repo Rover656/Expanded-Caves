@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:polished_lavastone"
+    }
+  ],
+  "result": {
+    "item": "expcaves:polished_lavastone_button"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:sediment_stone"
+    }
+  ],
+  "result": {
+    "item": "expcaves:sediment_stone_button"
+  }
+}

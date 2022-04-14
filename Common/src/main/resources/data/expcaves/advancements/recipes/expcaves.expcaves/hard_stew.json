@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:hard_stew"
+    ]
+  },
+  "criteria": {
+    "has_rockshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:rockshroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_stone_pebbles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "expcaves:stone_pebbles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:hard_stew"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rockshroom",
+      "has_stone_pebbles",
+      "has_the_recipe"
+    ]
+  ]
+}

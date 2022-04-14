@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expcaves:bricks_snow"
+    }
+  },
+  "result": {
+    "item": "expcaves:bricks_snow_wall",
+    "count": 6
+  }
+}

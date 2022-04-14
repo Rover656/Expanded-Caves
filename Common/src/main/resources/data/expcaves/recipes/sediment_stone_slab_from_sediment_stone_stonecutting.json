@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "expcaves:sediment_stone"
+  },
+  "result": "expcaves:sediment_stone_slab",
+  "count": 2
+}

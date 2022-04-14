@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "expcaves:rockshroom"
+    },
+    {
+      "tag": "expcaves:stone_pebbles"
+    }
+  ],
+  "result": {
+    "item": "expcaves:hard_stew"
+  }
+}

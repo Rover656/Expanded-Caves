@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:bricks_snow"
+    }
+  ],
+  "result": {
+    "item": "expcaves:bricks_snow_button"
+  }
+}

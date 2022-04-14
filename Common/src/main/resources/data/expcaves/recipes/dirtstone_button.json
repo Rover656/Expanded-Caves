@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expcaves:dirtstone"
+    }
+  ],
+  "result": {
+    "item": "expcaves:dirtstone_button"
+  }
+}

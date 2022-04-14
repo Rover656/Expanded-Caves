@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "B B",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "expcaves:brick_half"
+    }
+  },
+  "result": {
+    "item": "expcaves:decorative_amphora"
+  }
+}

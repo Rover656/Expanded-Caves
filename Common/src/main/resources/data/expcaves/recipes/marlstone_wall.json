@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expcaves:marlstone"
+    }
+  },
+  "result": {
+    "item": "expcaves:marlstone_wall",
+    "count": 6
+  }
+}

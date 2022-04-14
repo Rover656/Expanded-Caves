@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:decorative_pot"
+    ]
+  },
+  "criteria": {
+    "has_brick_half": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expcaves:brick_half"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:decorative_pot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brick_half",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "expcaves:picker_stone"
+    ]
+  },
+  "criteria": {
+    "has_stone_pebbles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "expcaves:stone_pebbles"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "expcaves:picker_stone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_pebbles",
+      "has_the_recipe"
+    ]
+  ]
+}
