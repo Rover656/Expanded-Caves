@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "side": "expcaves:block/sediment_stone",
-    "bottom": "expcaves:block/sediment_stone",
-    "top": "expcaves:block/sediment_stone"
-  }
-}

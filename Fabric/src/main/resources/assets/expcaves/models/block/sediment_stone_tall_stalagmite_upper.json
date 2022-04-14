@@ -1,7 +1,0 @@
-{
-  "parent": "expcaves:block/stalagmite_tall_upper",
-  "textures": {
-    "0": "expcaves:block/sediment_stone",
-    "particle": "expcaves:block/sediment_stone"
-  }
-}

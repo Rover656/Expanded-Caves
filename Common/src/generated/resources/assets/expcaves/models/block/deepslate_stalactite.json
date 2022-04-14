@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/stalactite",
+  "textures": {
+    "texture": "minecraft:block/deepslate",
+    "particle": "minecraft:block/deepslate"
+  }
+}

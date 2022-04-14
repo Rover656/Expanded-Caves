@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "expcaves:block/bricks_snow_slab"
+    },
+    "type=double": {
+      "model": "expcaves:block/bricks_snow"
+    },
+    "type=top": {
+      "model": "expcaves:block/bricks_snow_slab_top"
+    }
+  }
+}

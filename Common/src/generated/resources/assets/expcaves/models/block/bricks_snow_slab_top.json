@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "expcaves:block/bricks_snow",
+    "top": "expcaves:block/bricks_snow",
+    "side": "expcaves:block/bricks_snow"
+  }
+}

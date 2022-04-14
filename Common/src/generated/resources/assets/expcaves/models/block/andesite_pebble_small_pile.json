@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/small_rockpile",
+  "textures": {
+    "texture": "minecraft:block/andesite",
+    "particle": "minecraft:block/andesite"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "expcaves:block/lavastone_slab"
+    },
+    "type=double": {
+      "model": "expcaves:block/lavastone"
+    },
+    "type=top": {
+      "model": "expcaves:block/lavastone_slab_top"
+    }
+  }
+}

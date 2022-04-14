@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/pebble",
+  "textures": {
+    "texture": "expcaves:block/lavastone",
+    "particle": "expcaves:block/lavastone"
+  }
+}

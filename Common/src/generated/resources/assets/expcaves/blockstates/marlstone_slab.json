@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "expcaves:block/marlstone_slab"
+    },
+    "type=double": {
+      "model": "expcaves:block/marlstone"
+    },
+    "type=top": {
+      "model": "expcaves:block/marlstone_slab_top"
+    }
+  }
+}

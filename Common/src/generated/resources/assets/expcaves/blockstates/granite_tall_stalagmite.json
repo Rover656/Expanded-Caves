@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "half=lower": [
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_lower"
+      },
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_lower",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_lower",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_lower",
+        "y": 270
+      }
+    ],
+    "half=upper": [
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_upper"
+      },
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_upper",
+        "y": 90
+      },
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_upper",
+        "y": 180
+      },
+      {
+        "model": "expcaves:block/granite_tall_stalagmite_upper",
+        "y": 270
+      }
+    ]
+  }
+}

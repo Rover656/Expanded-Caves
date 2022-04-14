@@ -1,0 +1,7 @@
+{
+  "parent": "expcaves:block/big_rockpile",
+  "textures": {
+    "texture": "minecraft:block/tuff",
+    "particle": "minecraft:block/tuff"
+  }
+}

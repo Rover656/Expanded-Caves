@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "expcaves:block/dirtstone_slab"
+    },
+    "type=double": {
+      "model": "expcaves:block/dirtstone"
+    },
+    "type=top": {
+      "model": "expcaves:block/dirtstone_slab_top"
+    }
+  }
+}

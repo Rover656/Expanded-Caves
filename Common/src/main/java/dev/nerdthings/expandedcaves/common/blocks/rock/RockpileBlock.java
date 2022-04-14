@@ -23,9 +23,16 @@ public class RockpileBlock extends Block {
     public static final IntegerProperty PEBBLES = IntegerProperty.create("pebbles", 1, 3);
     // TODO: Do we allow waterlogging? Probably?
 
-    public RockpileBlock(Properties p_49795_) {
+    private final Block base;
+
+    public RockpileBlock(Properties p_49795_, Block base) {
         super(p_49795_);
+        this.base = base;
         this.registerDefaultState(this.stateDefinition.any().setValue(PEBBLES, 1));
+    }
+
+    public Block getBase() {
+        return base;
     }
 
     public BlockState getPebbleState() {

@@ -1,20 +1,20 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by Rover656",
 	"textures": {
-		"0": "minecraft:block/stone",
-		"particle": "minecraft:block/stone"
+		"particle": "block/stone",
+		"texture": "block/stone"
 	},
 	"elements": [
 		{
 			"from": [6, 0, 6],
 			"to": [10, 2, 10],
 			"faces": {
-				"north": {"uv": [6, 7, 10, 9], "texture": "#0"},
-				"east": {"uv": [10, 7, 6, 9], "texture": "#0"},
-				"south": {"uv": [6, 7, 10, 9], "texture": "#0"},
-				"west": {"uv": [10, 7, 6, 9], "texture": "#0"},
-				"up": {"uv": [6, 6, 10, 10], "texture": "#0"},
-				"down": {"uv": [6, 6, 10, 10], "texture": "#0"}
+				"north": {"uv": [6, 7, 10, 9], "texture": "#texture"},
+				"east": {"uv": [10, 7, 6, 9], "texture": "#texture"},
+				"south": {"uv": [6, 7, 10, 9], "texture": "#texture"},
+				"west": {"uv": [10, 7, 6, 9], "texture": "#texture"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#texture"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#texture"}
 			}
 		}
 	]

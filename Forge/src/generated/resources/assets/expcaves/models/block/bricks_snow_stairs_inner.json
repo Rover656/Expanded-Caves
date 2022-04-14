@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "side": "expcaves:block/bricks_snow",
-    "bottom": "expcaves:block/bricks_snow",
-    "top": "expcaves:block/bricks_snow"
-  }
-}

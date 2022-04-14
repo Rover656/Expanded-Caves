@@ -189,19 +189,19 @@ public class ModBlocks {
 
     public static final DecorativeRockBlock PEBBLE_FLINT = register("rock_flint", new DecorativeRockBlock(DecorativeRockBlock.FLINT_SHAPE, BlockBehaviour.Properties.of(Material.STONE).instabreak().dynamicShape()));
 
-    public static final RockpileBlock STONE_PEBBLES = rockpile("stone_pebble");
-    public static final RockpileBlock ANDESITE_PEBBLES = rockpile("andesite_pebble");
-    public static final RockpileBlock DIORITE_PEBBLES = rockpile("diorite_pebble");
-    public static final RockpileBlock GRANITE_PEBBLES = rockpile("granite_pebble");
-    public static final RockpileBlock TUFF_PEBBLES = rockpile("tuff_pebble");
-    public static final RockpileBlock DEEPSLATE_PEBBLES = rockpile("deepslate_pebble");
-    public static final RockpileBlock SEDIMENT_STONE_PEBBLES = rockpile("sediment_stone_pebble");
-    public static final RockpileBlock LAVASTONE_PEBBLES = rockpile("lavastone_pebble");
+    public static final RockpileBlock STONE_PEBBLES = rockpile("stone_pebble", Blocks.STONE);
+    public static final RockpileBlock ANDESITE_PEBBLES = rockpile("andesite_pebble", Blocks.ANDESITE);
+    public static final RockpileBlock DIORITE_PEBBLES = rockpile("diorite_pebble", Blocks.DIORITE);
+    public static final RockpileBlock GRANITE_PEBBLES = rockpile("granite_pebble", Blocks.GRANITE);
+    public static final RockpileBlock TUFF_PEBBLES = rockpile("tuff_pebble", Blocks.TUFF);
+    public static final RockpileBlock DEEPSLATE_PEBBLES = rockpile("deepslate_pebble", Blocks.DEEPSLATE);
+    public static final RockpileBlock SEDIMENT_STONE_PEBBLES = rockpile("sediment_stone_pebble", ModBlocks.SEDIMENT_STONE);
+    public static final RockpileBlock LAVASTONE_PEBBLES = rockpile("lavastone_pebble", ModBlocks.LAVASTONE);
 //    public static final RockpileBlock NETHERRACK_PEBBLES = rockpile("netherrack_pebble");
 //    public static final RockpileBlock BLACKSTONE_PEBBLES = rockpile("blackstone_pebble");
 
-    private static RockpileBlock rockpile(String name) {
-        return register(name, new RockpileBlock(BlockBehaviour.Properties.of(Material.STONE).instabreak().dynamicShape()));
+    private static RockpileBlock rockpile(String name, Block base) {
+        return register(name, new RockpileBlock(BlockBehaviour.Properties.of(Material.STONE).instabreak().dynamicShape(), base));
     }
 
     // endregion

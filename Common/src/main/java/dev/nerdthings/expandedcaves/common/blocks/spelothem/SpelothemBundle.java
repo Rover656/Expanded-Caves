@@ -12,8 +12,8 @@ public class SpelothemBundle {
     public final TallStalagmiteBlock tallStalagmite;
     public final StalactiteBlock stalactite;
     public final TallStalactiteBlock tallStalactite;
-
     public final Block referenceBlock;
+    public final String name;
 
     public SpelothemBundle(BiFunction<String, Block, Block> registerFunc, String name, Block referenceBlock, Material material, float smallStrength, float tallStrength) {
         this(registerFunc, name, referenceBlock, material, smallStrength, tallStrength, UnaryOperator.identity());
@@ -25,6 +25,7 @@ public class SpelothemBundle {
         tallStalagmite = new TallStalagmiteBlock(properties.apply(BlockBehaviour.Properties.of(material)).strength(tallStrength));
         tallStalactite = new TallStalactiteBlock(properties.apply(BlockBehaviour.Properties.of(material)).strength(tallStrength));
         this.referenceBlock = referenceBlock;
+        this.name = name;
 
         // Register them all
         registerFunc.apply(name + "_stalagmite", stalagmite);

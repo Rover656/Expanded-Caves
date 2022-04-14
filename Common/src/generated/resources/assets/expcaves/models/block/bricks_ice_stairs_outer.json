@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "expcaves:block/bricks_ice",
+    "top": "expcaves:block/bricks_ice",
+    "side": "expcaves:block/bricks_ice"
+  }
+}

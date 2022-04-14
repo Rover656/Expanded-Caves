@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "expcaves:block/polished_lavastone",
+    "top": "expcaves:block/polished_lavastone",
+    "side": "expcaves:block/polished_lavastone"
+  }
+}

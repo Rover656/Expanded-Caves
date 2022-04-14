@@ -1,7 +1,0 @@
-{
-  "parent": "expcaves:block/stalactite_tall_lower",
-  "textures": {
-    "0": "minecraft:block/andesite",
-    "particle": "minecraft:block/andesite"
-  }
-}
