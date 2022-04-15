@@ -1,12 +1,10 @@
 package dev.nerdthings.expandedcaves.common.items;
 
 import dev.nerdthings.expandedcaves.Constants;
-import dev.nerdthings.expandedcaves.common.items.util.CPickaxeItem;
+import dev.nerdthings.expandedcaves.common.items.util.ModPickaxeItem;
 import dev.nerdthings.expandedcaves.platform.Services;
-import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Block;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +42,7 @@ public class ModItems {
     // region Reg Helpers
 
     private static PickaxeItem pickaxe(String name, Tier tier, int attackDamage, float attackSpeed) {
-        return register(name, new CPickaxeItem(tier, attackDamage, attackSpeed, Services.PLATFORM.defaultItemBuilder()));
+        return register(name, new ModPickaxeItem(tier, attackDamage, attackSpeed, Services.PLATFORM.defaultItemBuilder()));
     }
 
     private static SwordItem sword(String name, Tier tier, int attackDamage, float attackSpeed) {

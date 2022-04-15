@@ -1,15 +1,16 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "dev.nerdthings.expandedcaves.mixin",
-    "compatibilityLevel": "JAVA_16",
+    "package": "dev.nerdthings.expandedcaves.fabric.mixin",
+    "compatibilityLevel": "JAVA_17",
     "mixins": [
     ],
     "client": [
-      "ExampleMixin"
+
     ],
     "injectors": {
       "defaultRequire": 1
-    }
+    },
+    "refmap": "expcaves.refmap.json"
   }
   

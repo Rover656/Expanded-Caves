@@ -8,6 +8,7 @@ import dev.nerdthings.expandedcaves.Constants;
 import dev.nerdthings.expandedcaves.common.ModTags;
 import dev.nerdthings.expandedcaves.common.blocks.ModBlocks;
 import dev.nerdthings.expandedcaves.common.items.ModItems;
+import dev.nerdthings.expandedcaves.mixin.AdvancementProviderAccess;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.DisplayInfo;
 import net.minecraft.advancements.FrameType;
@@ -30,6 +31,7 @@ import org.slf4j.Logger;
 
 import java.io.IOException;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
 
@@ -48,33 +50,10 @@ public class AdvancementProvider extends net.minecraft.data.advancements.Advance
         return "Common Advancement Provider";
     }
 
-    // Gross copying was done in order to get this to work without mixins.
     @Override
     public void run(HashCache hashCache) {
-        Path $$1 = this.generator.getOutputFolder();
-        Set<ResourceLocation> $$2 = Sets.newHashSet();
-        Consumer<Advancement> consumer = ($$3x) -> {
-            if (!$$2.add($$3x.getId())) {
-                throw new IllegalStateException("Duplicate advancement " + $$3x.getId());
-            } else {
-                Path $$4x = createPath($$1, $$3x);
-
-                try {
-                    DataProvider.save(GSON, hashCache, $$3x.deconstruct().serializeToJson(), $$4x);
-                } catch (IOException var6) {
-                    LOGGER.error("Couldn't save advancement {}", $$4x, var6);
-                }
-
-            }
-        };
-
-        // Add our advancements
-        advancements(consumer);
-    }
-
-    private static Path createPath(Path $$0, Advancement $$1) {
-        String var10001 = $$1.getId().getNamespace();
-        return $$0.resolve("data/" + var10001 + "/advancements/" + $$1.getId().getPath() + ".json");
+        ((AdvancementProviderAccess) this).setTabs(List.of(AdvancementProvider::advancements));
+        super.run(hashCache);
     }
 
     private static void advancements(Consumer<Advancement> consumer) {

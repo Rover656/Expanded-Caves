@@ -21,10 +21,13 @@ dependencies {
     implementation project(":Common")
 
     // Config
-    implementation "me.zeroeightsix:fiber:${project.fiber_version}"
+    modImplementation "me.zeroeightsix:fiber:${project.fiber_version}"
+    include "me.zeroeightsix:fiber:${project.fiber_version}"
 }
 
 loom {
+    mixin.defaultRefmapName = "expcaves.refmap.json"
+
     runs {
         client {
             client()

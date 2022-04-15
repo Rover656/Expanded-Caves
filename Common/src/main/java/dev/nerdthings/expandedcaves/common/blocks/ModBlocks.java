@@ -10,9 +10,9 @@ import dev.nerdthings.expandedcaves.common.blocks.pots.PotType;
 import dev.nerdthings.expandedcaves.common.blocks.rock.DecorativeRockBlock;
 import dev.nerdthings.expandedcaves.common.blocks.rock.RockpileBlock;
 import dev.nerdthings.expandedcaves.common.blocks.spelothem.SpelothemBundle;
-import dev.nerdthings.expandedcaves.common.blocks.util.CPressurePlateBlock;
-import dev.nerdthings.expandedcaves.common.blocks.util.CStairBlock;
-import dev.nerdthings.expandedcaves.common.blocks.util.CStoneButtonBlock;
+import dev.nerdthings.expandedcaves.common.blocks.util.ModPressurePlateBlock;
+import dev.nerdthings.expandedcaves.common.blocks.util.ModStairBlock;
+import dev.nerdthings.expandedcaves.common.blocks.util.ModStoneButtonBlock;
 import dev.nerdthings.expandedcaves.common.blocks.vine.CaveVineBlock;
 import dev.nerdthings.expandedcaves.common.blocks.vine.CaveVineEndBlock;
 import dev.nerdthings.expandedcaves.common.items.ModFoods;
@@ -164,7 +164,7 @@ public class ModBlocks {
     }
 
     private static StairBlock stair(String name, float destroyTime, float explosionResistance, Block parent) {
-        return register(name + "_stairs", new CStairBlock(parent.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).strength(destroyTime, explosionResistance)));
+        return register(name + "_stairs", new ModStairBlock(parent.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).strength(destroyTime, explosionResistance)));
     }
 
     private static SlabBlock slab(String name, float destroyTime, float explosionResistance) {
@@ -176,11 +176,11 @@ public class ModBlocks {
     }
 
     private static StoneButtonBlock button(String name, float destroyTime, float explosionResistance) {
-        return register(name + "_button", new CStoneButtonBlock(BlockBehaviour.Properties.of(Material.STONE).strength(destroyTime, explosionResistance)));
+        return register(name + "_button", new ModStoneButtonBlock(BlockBehaviour.Properties.of(Material.STONE).strength(destroyTime, explosionResistance)));
     }
 
     private static PressurePlateBlock pressurePlate(String name, float destroyTime, float explosionResistance) {
-        return register(name + "_pressure_plate", new CPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE).strength(destroyTime, explosionResistance)));
+        return register(name + "_pressure_plate", new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE).strength(destroyTime, explosionResistance)));
     }
 
     // endregion

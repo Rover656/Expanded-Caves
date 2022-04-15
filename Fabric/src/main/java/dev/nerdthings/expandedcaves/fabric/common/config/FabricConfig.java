@@ -14,8 +14,6 @@ import io.github.fablabsmc.fablabs.api.fiber.v1.tree.PropertyMirror;
 import java.io.*;
 import java.nio.file.*;
 
-// TODO: Actually plug this crap in.
-
 public class FabricConfig {
     private static class OreFeatureConfig implements ModConfig.OreFeatureConfig {
 

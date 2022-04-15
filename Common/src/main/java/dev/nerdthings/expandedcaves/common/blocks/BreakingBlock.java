@@ -20,7 +20,6 @@ import java.util.Random;
 import java.util.function.Supplier;
 
 // TODO: Cracking texture or overlay.
-
 public class BreakingBlock extends Block {
 
     public static final BooleanProperty TRIGGERED = BooleanProperty.create("triggered");
@@ -95,7 +94,8 @@ public class BreakingBlock extends Block {
 
         // Spew particles
         for (int i = 0; i < 8; i++) {
-            pLevel.addParticle(new BlockParticleOption(ParticleTypes.BLOCK, pState), pPos.getX() + 0.5f, pPos.getY() + 1.5f, pPos.getZ() + 0.5f, pRandom.nextFloat(-0.5f, 0.5f), 1.5f + pRandom.nextFloat(), pRandom.nextFloat(-0.5f, 0.5f));
+            pLevel.addParticle(new BlockParticleOption(ParticleTypes.BLOCK, pState), pPos.getX() + 0.5f, pPos.getY() + 1.5f, pPos.getZ() + 0.5f,
+                pRandom.nextFloat(-0.5f, 0.5f), 1.5f + pRandom.nextFloat(), pRandom.nextFloat(-0.5f, 0.5f));
         }
     }
 

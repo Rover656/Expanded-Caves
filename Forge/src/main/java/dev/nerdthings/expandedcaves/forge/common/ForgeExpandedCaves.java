@@ -38,17 +38,6 @@ public class ForgeExpandedCaves {
 
         // Add world gen features
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, WorldGen::onBiomeLoad);
-
-        // Datagen
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(EventPriority.LOWEST, this::gatherData);
-    }
-
-    public void gatherData(GatherDataEvent event) {
-        DataGenerator generator = event.getGenerator();
-
-        if (event.includeServer()) {
-
-        }
     }
 
     // Thanks botania!

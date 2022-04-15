@@ -29,6 +29,7 @@
       ]
     },
     "mixins": [
+      "expcaves_common.mixins.json",
       "expcaves.mixins.json"
     ],
   
